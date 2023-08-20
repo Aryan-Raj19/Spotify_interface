@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+}
+
+.part1 {
+  background: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
+  height: 100vh;
+  width: 18vw;
+  position: fixed;
+}
+
+.logo {
+  display: flex;
+  margin: 15px 0 0 10px;
+}
+
+.logo_img {
+  width: 60px;
+}
+
+.logo_name {
+  font-size: 40px;
+  margin: 5px 0 0 15px;
+}
+
+.home ul {
+  margin: 35px 0 5px 30px;
+  list-style: none;
+}
+
+.home ul li {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.home ul li a {
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.home ul li a:hover {
+    cursor: pointer;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+.home ul li i {
+    color: rgb(255, 255, 255);
+  margin-right: 13px;
+}
+
+.playlist ul {
+  margin: 55px 0 5px 30px;
+  list-style: none;
+}
+
+.playlist ul li {
+  font-size: 18px;
+  margin-top: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.playlist ul li a:hover {
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.playlist ul li a {
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+}
+
+.playlist ul li i {
+  margin-right: 13px;
+}
+
+.part1 p {
+  font-size: 12px;
+  margin: 130px 0 0 30px;
+}
+
+.part2 {
+  height: 100vh;
+  width: 82vw;
+  margin-left: 18vw;
+}
+
+.nav_body {
+  height: 12vh;
+  background-color: rgb(27, 26, 26);
+  display: flex;
+  /* position: absolute; */
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  color: rgb(236, 236, 236);
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.nav ul li a i {
+  color: rgb(156, 156, 156);
+}
+
+.nav ul li i:hover {
+  cursor: pointer;
+  color: rgb(250, 250, 250);
+}
+
+.login ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 5%;
+  margin-top: 25px;
+}
+
+.login ul li a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: rgb(211, 211, 211);
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.login ul li a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.login .log {
+  background-color: rgb(211, 211, 211);
+  color: rgb(29, 29, 29);
+  border-radius: 15px;
+  padding: 6px 17px;
+}
+
+.login .log:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(29, 29, 29);
+  border-radius: 15px;
+}
+
+.box {
+  height: 350vh;
+  background: rgb(39, 39, 39);
+}
+
+.screen {
+  margin-left: 20px;
+  padding-top: 15px;
+}
+
+.slide {
+  margin-top: 20px;
+  display: flex;
+}
+
+.contain {
+  background: rgb(46, 46, 46);
+  width: 18vw;
+  height: 50vh;
+  margin-right: 15px;
+  border-radius: 10px;
+  padding: 20px 0 10px 20px;
+}
+
+.contain:hover {
+  cursor: pointer;
+  background: rgb(27, 27, 27);
+  width: 18vw;
+  height: 50vh;
+  margin-right: 15px;
+  border-radius: 10px;
+  padding: 20px 0 10px 20px;
+}
+
+.contain img {
+  border-radius: 8px;
+}
+
+.contain p {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.see {
+    position: absolute;
+    right: 5%;
+    font-size: 15px;
+    color: rgb(156, 156, 165);
+    margin-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.see:hover {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    right: 5%;
+    font-size: 15px;
+    color: rgb(190, 190, 190);
+    margin-top: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.see:active{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  right: 5%;
+  font-size: 15px;
+  color: rgb(190, 190, 190);
+  margin-top: 15px;
+  cursor: pointer;
+  text-decoration: underline;
+}
